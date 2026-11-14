@@ -1,0 +1,38 @@
+{
+  "accent": "#FFD928",
+  "tag": { "kicker": "RIDE ON TOY", "title": "Dino Scooter" },
+
+  "shots": [
+    { "clip": "IMG_6315", "start": 6.65, "dur": 2.5, "zoom": [1.0, 1.12], "focus": [0.45, 0.35],
+      "caption": { "style": "hook", "lines": ["THIS DINO", "REALLY *ROARS*"] } },
+
+    { "clip": "IMG_6318", "start": 0.9, "dur": 2.0, "gain": 8,
+      "caption": { "style": "hook", "size": 110, "lines": ["AND YOUR KID", "CAN *RIDE* IT"] } },
+
+    { "clip": "IMG_6314", "start": 1.0, "dur": 3.8, "speed": 2.5,
+      "caption": { "lines": ["A dino scooter", "for *ages 3* and up"] } },
+
+    { "clip": "IMG_6316", "start": 5.5, "dur": 3.2, "zoom": [1.0, 1.05], "focus": [0.5, 0.4], "sound": "none",
+      "caption": { "lines": ["Press the buttons", "for *music*"] } },
+
+    { "clip": "IMG_6317", "start": 0.75, "dur": 3.0, "zoom": [1.05, 1.15], "focus": [0.4, 0.25], "gain": 6,
+      "caption": { "lines": ["Eyes *light up*", "bright green"] } },
+
+    { "clip": "IMG_6315", "start": 9.65, "dur": 2.7, "zoom": [1.15, 1.35], "focus": [0.45, 0.38],
+      "caption": { "style": "hook", "size": 104, "y": 1260, "lines": ["JAW OPENS.", "THEN IT *ROARS.*"] } }
+  ],
+
+  "sounds": [
+    { "clip": "IMG_6316", "start": 1.7, "dur": 7.0, "at_shot": 3, "gain": 6 },
+    { "clip": "IMG_6316", "start": 9.0, "dur": 4.0, "at": "end_card", "gain": 2, "fade_out": 1.2 }
+  ],
+
+  "end_card": {
+    "photo": "62ee2a71",
+    "dur": 4.0,
+    "title": ["*DINO*", "SCOOTER"],
+    "features": "Roars. Lights up. Plays music.",
+    "button": "TAP THE YELLOW BASKET",
+    "arrow": "down_left"
+  }
+}
