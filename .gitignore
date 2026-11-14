@@ -1,0 +1,4 @@
+_build_tmp/
+__pycache__/
+# rendered videos stay out of this public repo
+*.mp4
